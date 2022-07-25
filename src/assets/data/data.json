@@ -1,0 +1,74 @@
+{
+    "name":"Juan Manuel Monteros Vigueras",
+    "profession":"Full Stack Developer Jr",
+    "about_me":"Hi, I'm Juan, I'm 20, I'm an electronic engineering student, I'm taking my first steps in web development, I really want to start working in this area and continue training in this field",
+    "face-picture":"../../../assets/photo_2022-04-24_14-05-53.jpg",
+    "work":[
+    {
+    "title":"Reparacion y Mantenimientos de pc",
+    "years":"2019-2020",
+    "about": "Armado de pc, accesoramiento sobre la misma, mantenimiento de hadware y sofware, intallacion de windows, intalacion de componentes, recuperacion de los datos del disco , etc "
+    },
+    {
+    "title":"Programacion de microcontroladores en C",
+    "years":"2021-2022",
+    "about":"Programacion del microcontaladora Atmega328 para distintos fines, convinando con el entorno de dessarrollo arduno para lograr el IoT"
+    },
+    {
+    "title":"Profesor Particular",
+    "years":"2022-NOW",
+    "about":"Clases particulares de Analisis Matematico I,II,III, Algebra y Geometria Analitica, FisicaI,II,II y InformaticaI,II"
+    }],
+    "education":[
+    {
+    "title":"Colegio Secundario",
+    "years":"2015-2019",
+    "about":"Colegio Maria del Rosarios N8064 Con titulo en bachiller en Ciencias Naturales promedio 8.49"
+    },
+    {
+    "title":"Primera Etapa Argentina Programa",
+    "years":"Oct - Nov 2021",
+    "about":"Logica de programacion con gobstone, Javascript y POO con ruby "
+    },
+    {
+    "title":"Introduccion a la Programacion Digitales",
+    "years":"Abr 2022",
+    "about":"Modulo de introducion al curso de backend de Digitales"
+    },
+    {
+    "title":"Segunda etapa Atgentina programa ",
+    "years":"2021-Now",
+    "about":"Programacion full stack jr Frontend  Html, Css,JavaScript, Angular, boostrap Backend  sprint boot, Java Base de Datos  Sql Testing  Metodoogias de Trabajo ciberseguridad "
+    },
+    {
+    "title":"Ing. Electronica",
+    "years":"2020 - Now",
+    "about":" Tercer Anos de la carrera con todas las materias de anos anteriores aprobadas"
+    }
+    ],
+    "hardskill":[
+        {
+        "title": "HTTP",
+        "percent": "85"
+        },
+        {
+        "title": "C and C++",
+        "percent": "100"
+        }
+        ],
+        "softskill":[
+        {
+        "title": "Liderazgo",
+        "percent": "100"
+        }
+        ],
+        "proyecto":[
+            {
+            "title": "Habitacion inteligente",
+            "about": "este proyecto consistio en domotisar una habitacion con el objetivo de hacer mas facil las tareas de trabajar en la misma",
+            "link":"https://drive.google.com/drive/my-drive",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6iojlHFO57rU0R1YLd9MsTwQb4NQEPiHb8YaKwpvBxk3LpM55kx8uMYgaxzMWfePrVSw&usqp=CAU"
+            }
+            ]
+    }
+    

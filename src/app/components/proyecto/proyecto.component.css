@@ -1,0 +1,23 @@
+
+.row{
+    background-color: rgb(17, 150, 233);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.card,.card-title,.card-text{
+    background-color: rgb(17, 90, 136);
+}
+.parte1 , .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+h1,#boton{
+    display: inline;
+}
+.pro{
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+}
+

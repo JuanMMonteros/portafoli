@@ -1,0 +1,31 @@
+<div class="container">
+    <h1 id="new">Nueva Educacuion </h1>
+    <br><br>
+  <form (onSubmit)="onCreate()" novalidate #f="ngForm">
+      <!-- Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" name="titulo"[(ngModel)]="titulo" class="form-control" required/>
+        <label class="form-label" for="titulo">Titulo</label>
+      </div>
+    
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="text" name="tiempo"[(ngModel)]="tiempo" required class="form-control" />
+        <label class="form-label" for="tiempo">tiempo</label>
+      </div>
+    
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <input class="form-control" name="sobre"[(ngModel)]="sobre" rows="4"/>
+        <label class="form-label" for="sobre">Descripcion de la tarea</label>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="text" name="img"[(ngModel)]="img" class="form-control" required/>
+        <label class="form-label" for="img">URL de la img</label>
+      </div>
+    
+      <!-- Submit button -->
+      <button type="submit" (click)="onCreate()"class="btn btn-primary btn-block mb-4">Crear</button>
+    </form>
+  </div>

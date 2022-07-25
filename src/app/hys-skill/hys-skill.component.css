@@ -1,0 +1,16 @@
+.row{
+    background-color: rgb(17, 150, 233);
+
+}
+.skill{
+    display: inline;
+    float:left;
+    margin: 20px;
+    height: max-content;
+}
+#delete{
+    display: inline;
+    color: black;
+    padding: 2px;
+    margin: 1px;
+}

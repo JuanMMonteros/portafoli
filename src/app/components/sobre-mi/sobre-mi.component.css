@@ -1,0 +1,26 @@
+.row{
+    background-color: rgb(17, 150, 233);
+    padding: 15px;
+}
+@media(min-width: 570px){
+    #foto{
+        position:  absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(129, 127, 127);
+        margin-top: -5%;
+    }
+}
+.edit{
+    display: inline;
+    float: right;
+}
+@media(max-width: 570px){
+    #foto{
+        width: 100%;
+        align-items: center;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(129, 127, 127);
+        margin-top: -5%;
+    }
+}

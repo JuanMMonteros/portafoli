@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/Logos/APLogo.png" alt="logo argentina programa">
+        </div>
+        <div class="redes">
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=100010571311808"><img src="../../../assets/Logos/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/juan_mont3ros/?hl=en"><img src="../../../assets/Logos/instagram.png" alt=""></a>
+                <a href="https://github.com/JuanMMonteros"><img src="../../../assets/Logos/github.png" alt=""></a>
+                <a href="linkedin.com/in/juan-monteros-864ba523b"><img src="../../../assets/Logos/linkedin.png" alt=""></a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Sign in</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Sign Out</button>
+            </div>           
+        </div>
+    </div>
+</div>

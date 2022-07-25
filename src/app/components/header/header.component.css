@@ -1,27 +1,7 @@
-.container{
-    padding: 0%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: aqua;
-    width: 100%;
+.logoap{
+    background-color: rgb(17, 150, 233);
 }
-.logo{
-    flex-shrink: 5;
-    align-items: flex-start;
-    padding: auto;
-;
-
-}
-.login{
-    flex-shrink: 2;
-    align-items: flex-end;
-    padding: auto;
-
-}
-.contacto{
-    flex-shrink: 1;
-align-self: flex-end;
-
+app-redes-sociales{
+    float: right;
+    margin-top: 15px;
 }
