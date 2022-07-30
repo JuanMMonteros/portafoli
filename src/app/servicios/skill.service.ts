@@ -7,8 +7,8 @@ import { skill } from '../model/skill.model';
   providedIn: 'root'
 })
 export class SkillService {
-  URLH='http://localhost:8080/HardSkill/'
-  URLS='http://localhost:8080/SoftSkill/'
+  URLH='https://jmontportafolio.herokuapp.com/HardSkill/'
+  URLS='https://jmontportafolio.herokuapp.com/SoftSkill/'
 
   constructor(private http:HttpClient) { }
   public save(skill:skill,cual:boolean):Observable<any>{

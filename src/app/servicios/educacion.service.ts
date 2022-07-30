@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL='http://localhost:8080/Educacion/'
+  URL='https://jmontportafolio.herokuapp.com/Educacion/'
 
   constructor(private http:HttpClient) { }
   public save(edu:educacion):Observable<any>{
